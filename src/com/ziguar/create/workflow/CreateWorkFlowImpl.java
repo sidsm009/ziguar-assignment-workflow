@@ -18,6 +18,7 @@ public class CreateWorkFlowImpl extends AbstractCreateWorkFlow {
     public CreateWorkFlowImpl(CreateWorkFlowBuilder builder) {
         this.workflowName = builder.workflowName;
         this.components = builder.components;
+        componentConnectionsList = new LinkedList<List<String>>();
     }
 
     public List<Component> getComponents() {

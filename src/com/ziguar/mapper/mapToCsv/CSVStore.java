@@ -20,7 +20,7 @@ public class CSVStore {
     }
 
     public CSVStore(String fileName, String filePath) {
-        this.file = filePath+"/"+fileName;
+        this.file = filePath+"\\"+fileName;
     }
 
     public String getFile() {

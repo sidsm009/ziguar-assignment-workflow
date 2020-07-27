@@ -31,7 +31,7 @@ public class Main {
         }
 
         System.out.println("Do you want additional components? (yes/no) => ");
-        String moreComponents = sc.next();
+        String moreComponents = sc.nextLine();
         boolean moreComponentsBool = false;
         if(moreComponents.equalsIgnoreCase("yes")) {
             moreComponentsBool = true;

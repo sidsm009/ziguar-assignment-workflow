@@ -22,7 +22,7 @@ public class JsonWriter {
         this.contextFolderName = contextFolderName;
         this.contextFileName = contextFileName;
         if(null != contextFolderName && contextFolderName != "" && null != contextFileName && contextFileName != "") {
-            fileName = resourceFolderPath+"\\"+contextFolderName+contextFileName;
+            fileName = resourceFolderPath+"\\"+contextFolderName+"\\"+contextFileName;
         }
     }
 

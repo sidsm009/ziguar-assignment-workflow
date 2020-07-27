@@ -82,7 +82,7 @@ public class WorkflowRepository implements Repository {
                 validateFile();
                 Integer lastId = getLastId();
                 String workflowName = workflowContext.getWorkflowName();
-                Integer id = lastId++;
+                Integer id = lastId+1;
                 String new_id = String.valueOf(id);
                 writeLineToCsv(new String[]{new_id, workflowName});
                 try {
